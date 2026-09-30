@@ -1,15 +1,16 @@
-# Construit la carte et la déploie sur le VPS (gouvci.arnoldkouya.com) par rsync sur SSH.
+# Construit la carte et la déploie sur le VPS Plesk (gouvci.arnoldkouya.com) par rsync sur SSH.
 #
 # - À chaque push sur main : reconstruit la carte à partir des données versionnées, puis déploie.
 # - Le 1er de chaque mois, ou à la demande avec « complet » : cherche les sous-domaines (crt.sh),
 #   relance les vérifications HTTP, versionne les résultats, puis déploie.
 #
-# Secrets à créer (Settings › Secrets and variables › Actions) :
+# Secrets à créer dans l'environnement « github-pages »
+# (Settings › Environments › github-pages › Environment secrets) :
 #   VPS_HOST         adresse ou nom du serveur
-#   VPS_USER         utilisateur SSH (avec droit d'écriture sur VPS_PATH)
+#   VPS_USER         utilisateur système de l'abonnement Plesk (accès SSH activé)
 #   VPS_SSH_KEY      clé privée dédiée au déploiement
 #   VPS_KNOWN_HOSTS  sortie de « ssh-keyscan -H <VPS_HOST> » (empreinte du serveur)
-#   VPS_PATH         dossier servi par nginx, par exemple /var/www/gouvci
+#   VPS_PATH         dossier du site, /var/www/vhosts/gouvci.arnoldkouya.com/httpdocs
 #   VPS_PORT         (facultatif) port SSH, 22 par défaut
 name: Carte
 
@@ -35,6 +36,7 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: github-pages
     timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
@@ -73,6 +75,6 @@ jobs:
           mkdir -p ~/.ssh && chmod 700 ~/.ssh
           printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
           printf '%s\n' "$VPS_KNOWN_HOSTS" > ~/.ssh/known_hosts
-          rsync -az --delete \
+          rsync -rz --delete --chmod=D755,F644 \
             -e "ssh -i ~/.ssh/id_deploy -p ${VPS_PORT:-22} -o StrictHostKeyChecking=yes" \
             out/web/ "$VPS_USER@$VPS_HOST:$VPS_PATH/"

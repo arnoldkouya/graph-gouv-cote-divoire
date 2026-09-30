@@ -126,25 +126,34 @@ Relevé effectué le 30 septembre 2026 :
 Un rattachement manquant se corrige dans `config/sites.csv` (colonne `entite`), puis
 `npm run build`.
 
-## Publication (VPS)
+## Publication (VPS Plesk)
 
-La carte est une page statique (`out/web/`) servie par nginx sur **gouvci.arnoldkouya.com**
+La carte est une page statique (`out/web/`) servie par Plesk sur **gouvci.arnoldkouya.com**
 (domaine défini par `site.domaine` dans `config/config.json`).
 
-**Sur le serveur**, une fois :
+**Dans Plesk**, une fois :
 
-1. DNS : un enregistrement `A` (et `AAAA` si IPv6) `gouvci` → adresse du VPS.
-2. nginx : copier [`deploy/nginx.conf`](deploy/nginx.conf), adapter `root`, activer le site.
-3. HTTPS : `sudo certbot --nginx -d gouvci.arnoldkouya.com`.
+1. *Sites web et domaines › Ajouter un domaine* (ou un sous-domaine de `arnoldkouya.com`) :
+   `gouvci.arnoldkouya.com`, hébergement web, racine `httpdocs`. Le dossier doit être réservé à
+   la carte : le déploiement le synchronise en supprimant ce qui n'est pas dans la carte.
+2. *Hébergement et DNS › Accès à l'hébergement web* : activer l'accès SSH avec le shell
+   `/bin/bash` (et non la version « chrooted », qui n'a pas `rsync`) pour l'utilisateur système.
+3. DNS : un enregistrement `A` (et `AAAA` si IPv6) `gouvci` → adresse du VPS, dans la zone DNS
+   de Plesk si elle gère `arnoldkouya.com`, sinon chez le registraire.
+4. *SSL/TLS › Let's Encrypt* : émettre le certificat, puis activer la redirection HTTP → HTTPS.
+5. Ajouter la clé publique de déploiement dans `~/.ssh/authorized_keys` de cet utilisateur.
 
-**Déployer à la main** : `./deploy/deploy.sh utilisateur@serveur:/var/www/gouvci/`
+**Déployer à la main** :
+`./deploy/deploy.sh utilisateur@serveur:/var/www/vhosts/gouvci.arnoldkouya.com/httpdocs/`
 (construit la carte puis la copie par rsync).
 
 **Déployer automatiquement** : la GitHub Action [`carte.yml`](.github/workflows/carte.yml)
 reconstruit et envoie la carte sur le VPS à chaque push sur `main` ; le 1er de chaque mois,
-elle relance les sous-domaines et les vérifications, puis versionne les résultats. Secrets à
-créer : `VPS_HOST`, `VPS_USER`, `VPS_SSH_KEY` (clé dédiée), `VPS_KNOWN_HOSTS`
-(`ssh-keyscan -H <VPS_HOST>`), `VPS_PATH` et, si besoin, `VPS_PORT`.
+elle relance les sous-domaines et les vérifications, puis versionne les résultats. Elle
+s'exécute dans l'environnement `github-pages`, où se créent les secrets (*Settings ›
+Environments › github-pages*) : `VPS_HOST`, `VPS_USER`, `VPS_SSH_KEY` (clé dédiée),
+`VPS_KNOWN_HOSTS` (`ssh-keyscan -H <VPS_HOST>`), `VPS_PATH`
+(`/var/www/vhosts/gouvci.arnoldkouya.com/httpdocs`) et, si besoin, `VPS_PORT`.
 
 ## Organisation du code
 
@@ -156,7 +165,7 @@ src/
   check.mjs        vérification HTTP
   build.mjs        assemblage, rattachements, placement de la carte, exports
 config/            entités, sites, réglages
-deploy/            configuration nginx et script de déploiement
+deploy/            script de déploiement manuel
 donnees/           liste des sites, vérifications, candidats
 web/index.html     page de la carte (canvas, sans bibliothèque)
 test/              tests (node --test)
