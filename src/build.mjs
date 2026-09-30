@@ -1,3 +1,4 @@
+import { rmSync } from 'node:fs';
 import { path, readCsv, readJson, readText, writeJson, writeText, toCsv, config, today } from './lib.mjs';
 
 export const SITE_COLS = [
@@ -262,16 +263,17 @@ export function runBuild() {
   };
   const json = JSON.stringify(data).replace(/</g, '\\u003c');
   const out = path('out', 'web');
+  rmSync(out, { recursive: true, force: true }); // pas de fichier périmé dans ce qui sera déployé
   const page = readText(path('web', 'index.html'))
     .replace('/*DATA*/null', () => json)
-    .replaceAll('__TITRE__', titre);
+    .replaceAll('__TITRE__', titre)
+    .replace(/^.*__DOMAINE__.*\n/m, (l) => (cfg.site?.domaine ? l.replaceAll('__DOMAINE__', cfg.site.domaine) : ''));
   writeText(path(out, 'index.html'), page);
   writeText(path(out, 'data.json'), json + '\n');
   writeText(path(out, 'sites.csv'), toCsv(propres, SITE_COLS));
   writeText(path(out, 'sites.json'), JSON.stringify(propres, null, 1) + '\n');
   writeText(path(out, 'carte.gexf'), versGexf(carte, titre));
   writeText(path('out', 'rapport.md'), rapport({ sites, entites, avertissements }));
-  if (cfg.site?.domaine) writeText(path(out, 'CNAME'), cfg.site.domaine + '\n'); // domaine personnalisé GitHub Pages
 
   console.log(`Carte construite : ${sites.length} sites, ${carte.noeuds.length} nœuds → out/web/`);
   for (const a of avertissements) console.warn('Avertissement :', a);

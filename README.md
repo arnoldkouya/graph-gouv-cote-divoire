@@ -126,17 +126,25 @@ Relevé effectué le 30 septembre 2026 :
 Un rattachement manquant se corrige dans `config/sites.csv` (colonne `entite`), puis
 `npm run build`.
 
-## Publication
+## Publication (VPS)
 
-La GitHub Action [`carte.yml`](.github/workflows/carte.yml) publie `out/web/` sur GitHub Pages
-(*Settings › Pages › Source : GitHub Actions*) : à chaque push sur `main`, la carte est
-reconstruite ; le 1er de chaque mois, les sous-domaines et les vérifications sont relancés
-puis versionnés.
+La carte est une page statique (`out/web/`) servie par nginx sur **gouvci.arnoldkouya.com**
+(domaine défini par `site.domaine` dans `config/config.json`).
 
-Le domaine est fixé par `site.domaine` dans `config/config.json` (**gouvci.arnoldkouya.com**) :
-`build` écrit le fichier `CNAME` correspondant. Côté DNS, un enregistrement `CNAME`
-`gouvci` → `arnoldkouya.github.io.` pointe vers GitHub Pages ; une fois le certificat émis,
-cocher *Enforce HTTPS* dans *Settings › Pages*.
+**Sur le serveur**, une fois :
+
+1. DNS : un enregistrement `A` (et `AAAA` si IPv6) `gouvci` → adresse du VPS.
+2. nginx : copier [`deploy/nginx.conf`](deploy/nginx.conf), adapter `root`, activer le site.
+3. HTTPS : `sudo certbot --nginx -d gouvci.arnoldkouya.com`.
+
+**Déployer à la main** : `./deploy/deploy.sh utilisateur@serveur:/var/www/gouvci/`
+(construit la carte puis la copie par rsync).
+
+**Déployer automatiquement** : la GitHub Action [`carte.yml`](.github/workflows/carte.yml)
+reconstruit et envoie la carte sur le VPS à chaque push sur `main` ; le 1er de chaque mois,
+elle relance les sous-domaines et les vérifications, puis versionne les résultats. Secrets à
+créer : `VPS_HOST`, `VPS_USER`, `VPS_SSH_KEY` (clé dédiée), `VPS_KNOWN_HOSTS`
+(`ssh-keyscan -H <VPS_HOST>`), `VPS_PATH` et, si besoin, `VPS_PORT`.
 
 ## Organisation du code
 
@@ -148,6 +156,7 @@ src/
   check.mjs        vérification HTTP
   build.mjs        assemblage, rattachements, placement de la carte, exports
 config/            entités, sites, réglages
+deploy/            configuration nginx et script de déploiement
 donnees/           liste des sites, vérifications, candidats
 web/index.html     page de la carte (canvas, sans bibliothèque)
 test/              tests (node --test)

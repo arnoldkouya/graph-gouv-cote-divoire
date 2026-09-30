@@ -1,8 +1,16 @@
-# Construit la carte et la publie sur GitHub Pages.
+# Construit la carte et la déploie sur le VPS (gouvci.arnoldkouya.com) par rsync sur SSH.
 #
-# - À chaque push sur main : reconstruit la carte à partir des données versionnées.
+# - À chaque push sur main : reconstruit la carte à partir des données versionnées, puis déploie.
 # - Le 1er de chaque mois, ou à la demande avec « complet » : cherche les sous-domaines (crt.sh),
-#   relance les vérifications HTTP, versionne les résultats, puis publie.
+#   relance les vérifications HTTP, versionne les résultats, puis déploie.
+#
+# Secrets à créer (Settings › Secrets and variables › Actions) :
+#   VPS_HOST         adresse ou nom du serveur
+#   VPS_USER         utilisateur SSH (avec droit d'écriture sur VPS_PATH)
+#   VPS_SSH_KEY      clé privée dédiée au déploiement
+#   VPS_KNOWN_HOSTS  sortie de « ssh-keyscan -H <VPS_HOST> » (empreinte du serveur)
+#   VPS_PATH         dossier servi par nginx, par exemple /var/www/gouvci
+#   VPS_PORT         (facultatif) port SSH, 22 par défaut
 name: Carte
 
 on:
@@ -19,15 +27,13 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: carte
   cancel-in-progress: false
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
@@ -55,16 +61,18 @@ jobs:
         if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && !inputs.complet)
         run: npm run build
 
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: out/web
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Déploiement sur le VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+          VPS_PATH: ${{ secrets.VPS_PATH }}
+          VPS_PORT: ${{ secrets.VPS_PORT }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_KNOWN_HOSTS: ${{ secrets.VPS_KNOWN_HOSTS }}
+        run: |
+          mkdir -p ~/.ssh && chmod 700 ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/id_deploy && chmod 600 ~/.ssh/id_deploy
+          printf '%s\n' "$VPS_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          rsync -az --delete \
+            -e "ssh -i ~/.ssh/id_deploy -p ${VPS_PORT:-22} -o StrictHostKeyChecking=yes" \
+            out/web/ "$VPS_USER@$VPS_HOST:$VPS_PATH/"
