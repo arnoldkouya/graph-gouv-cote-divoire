@@ -1,7 +1,7 @@
 {
   "site": {
     "titre": "Carte des sites web publics de Côte d'Ivoire",
-    "domaine": null
+    "domaine": "gouvci.arnoldkouya.com"
   },
   "check": {
     "concurrency": 8,

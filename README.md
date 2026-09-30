@@ -121,7 +121,7 @@ Relevé effectué le 30 septembre 2026 :
 |---|---|
 | `config/entites.csv` | Ministères, institutions, autorités et pôles (à mettre à jour après chaque remaniement) |
 | `config/sites.csv` | Liste des sites de départ, avec l'entité qui les porte |
-| `config/config.json` | Réglages de la vérification et filtres de noms techniques |
+| `config/config.json` | Domaine de publication, réglages de la vérification, filtres de noms techniques |
 
 Un rattachement manquant se corrige dans `config/sites.csv` (colonne `entite`), puis
 `npm run build`.
@@ -132,6 +132,11 @@ La GitHub Action [`carte.yml`](.github/workflows/carte.yml) publie `out/web/` su
 (*Settings › Pages › Source : GitHub Actions*) : à chaque push sur `main`, la carte est
 reconstruite ; le 1er de chaque mois, les sous-domaines et les vérifications sont relancés
 puis versionnés.
+
+Le domaine est fixé par `site.domaine` dans `config/config.json` (**gouvci.arnoldkouya.com**) :
+`build` écrit le fichier `CNAME` correspondant. Côté DNS, un enregistrement `CNAME`
+`gouvci` → `arnoldkouya.github.io.` pointe vers GitHub Pages ; une fois le certificat émis,
+cocher *Enforce HTTPS* dans *Settings › Pages*.
 
 ## Organisation du code
 

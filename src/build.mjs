@@ -1,4 +1,3 @@
-import { copyFileSync, existsSync } from 'node:fs';
 import { path, readCsv, readJson, readText, writeJson, writeText, toCsv, config, today } from './lib.mjs';
 
 export const SITE_COLS = [
@@ -272,7 +271,7 @@ export function runBuild() {
   writeText(path(out, 'sites.json'), JSON.stringify(propres, null, 1) + '\n');
   writeText(path(out, 'carte.gexf'), versGexf(carte, titre));
   writeText(path('out', 'rapport.md'), rapport({ sites, entites, avertissements }));
-  if (existsSync(path('CNAME'))) copyFileSync(path('CNAME'), path(out, 'CNAME'));
+  if (cfg.site?.domaine) writeText(path(out, 'CNAME'), cfg.site.domaine + '\n'); // domaine personnalisé GitHub Pages
 
   console.log(`Carte construite : ${sites.length} sites, ${carte.noeuds.length} nœuds → out/web/`);
   for (const a of avertissements) console.warn('Avertissement :', a);
