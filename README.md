@@ -171,6 +171,17 @@ web/index.html     page de la carte (canvas, sans bibliothèque)
 test/              tests (node --test)
 ```
 
+## Contributeurs
+
+- **[Arnold Kouya](https://github.com/arnoldkouya)** : auteur et mainteneur.
+- **Claude** (Anthropic) : co-auteur, avec Arnold Kouya, du code, des données de départ et de la documentation.
+
+Idée de départ : la [carte des sites web publics de l'État français](https://github.com/jbledevehat/graph-gouv-fr)
+de Jean-Baptiste Le Dévéhat (Licence Ouverte 2.0). Le code de ce dépôt est écrit à part.
+
+Les corrections et ajouts sont bienvenus : ouvrez une *issue* ou une *pull request* (un
+rattachement manquant se corrige dans `config/sites.csv`).
+
 ## Licence
 
 Arnold Kouya, 2026, [licence MIT](LICENSE).
