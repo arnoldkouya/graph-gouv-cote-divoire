@@ -1,0 +1,70 @@
+# Construit la carte et la publie sur GitHub Pages.
+#
+# - À chaque push sur main : reconstruit la carte à partir des données versionnées.
+# - Le 1er de chaque mois, ou à la demande avec « complet » : cherche les sous-domaines (crt.sh),
+#   relance les vérifications HTTP, versionne les résultats, puis publie.
+name: Carte
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 4 1 * *'
+  workflow_dispatch:
+    inputs:
+      complet:
+        description: Relancer les sous-domaines et toutes les vérifications HTTP
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: carte
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm test
+
+      - name: Mise à jour complète (sous-domaines, vérifications HTTP, carte)
+        if: github.event_name == 'schedule' || inputs.complet
+        run: npm run update
+
+      - name: Versionne les nouvelles données
+        if: github.event_name == 'schedule' || inputs.complet
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add donnees
+          git diff --cached --quiet || git commit -m "Vérifications HTTP du $(date +%F)"
+          git push
+
+      - name: Construction de la carte
+        if: github.event_name == 'push' || (github.event_name == 'workflow_dispatch' && !inputs.complet)
+        run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out/web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

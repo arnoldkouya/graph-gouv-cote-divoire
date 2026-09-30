@@ -1,0 +1,4 @@
+node_modules/
+out/
+donnees/sources/
+.DS_Store

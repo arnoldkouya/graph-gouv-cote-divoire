@@ -1,0 +1,58 @@
+id,nom,court,type,parent,pole
+presidence,Présidence de la République,Présidence,presidence,,presidence
+primature,Primature,Primature,primature,,primature
+sgg,Secrétariat général du gouvernement,SGG,service,primature,primature
+defense,Ministère de la Défense,Défense,ministere,,defense
+fonction-publique,Ministère de la Fonction publique et de la Modernisation de l'administration,Fonction publique,ministere,,fonction-publique
+affaires-etrangeres,Ministère des Affaires étrangères et de la Coopération internationale,Affaires étrangères,ministere,,affaires-etrangeres
+integration-africaine,Ministère délégué chargé de l'Intégration africaine et des Ivoiriens de l'extérieur,Intégration africaine,ministere_delegue,affaires-etrangeres,affaires-etrangeres
+justice,Ministère de la Justice et des Droits de l'Homme,Justice,ministere,,justice
+interieur,Ministère de l'Intérieur et de la Sécurité,Intérieur,ministere,,interieur
+economie,"Ministère de l'Économie, des Finances et du Budget",Économie et Finances,ministere,,economie
+mines,"Ministère des Mines, du Pétrole et de l'Énergie",Mines et Énergie,ministere,,mines
+agriculture,"Ministère de l'Agriculture, du Développement rural et des Productions vivrières",Agriculture,ministere,,agriculture
+agriculture-delegue,Ministère délégué auprès du ministre de l'Agriculture,Délégué Agriculture,ministere_delegue,agriculture,agriculture
+transports,Ministère des Transports et des Affaires maritimes,Transports,ministere,,transports
+transports-delegue,Ministère délégué chargé des Affaires maritimes,Affaires maritimes,ministere_delegue,transports,transports
+hydraulique,"Ministère de l'Hydraulique, de l'Assainissement et de la Salubrité",Hydraulique,ministere,,hydraulique
+jeunesse,"Ministère de la Promotion de la jeunesse, de l'Insertion professionnelle et du Service civique",Jeunesse,ministere,,jeunesse
+sante,"Ministère de la Santé, de l'Hygiène publique et de la Couverture maladie universelle",Santé,ministere,,sante
+urbanisme,"Ministère de l'Urbanisme, du Logement et du Cadre de vie",Urbanisme et Logement,ministere,,urbanisme
+ressources-animales,Ministère des Ressources animales et halieutiques,Ressources animales,ministere,,ressources-animales
+portefeuille,Ministère du Portefeuille de l'État et des Entreprises publiques,Portefeuille de l'État,ministere,,portefeuille
+communication,"Ministère de la Communication, porte-parole du gouvernement",Communication,ministere,,communication
+eaux-forets,Ministère des Eaux et Forêts,Eaux et Forêts,ministere,,eaux-forets
+commerce,"Ministère du Commerce, de l'Industrie et de l'Artisanat",Commerce et Industrie,ministere,,commerce
+tourisme,Ministère du Tourisme et des Loisirs,Tourisme,ministere,,tourisme
+plan,Ministère du Plan et du Développement,Plan,ministere,,plan
+enseignement-superieur,Ministère de l'Enseignement supérieur et de la Recherche scientifique,Enseignement supérieur,ministere,,enseignement-superieur
+emploi,"Ministère de l'Emploi, de la Protection sociale et de la Formation professionnelle",Emploi et Protection sociale,ministere,,emploi
+education,"Ministère de l'Éducation nationale, de l'Alphabétisation et de l'Enseignement technique",Éducation nationale,ministere,,education
+education-delegue,Ministère délégué chargé de l'Enseignement technique,Enseignement technique,ministere_delegue,education,education
+infrastructures,Ministère des Infrastructures et de l'Entretien routier,Infrastructures,ministere,,infrastructures
+cohesion-sociale,"Ministère de la Cohésion sociale, de la Solidarité et de la Lutte contre la pauvreté",Cohésion sociale,ministere,,cohesion-sociale
+transition-numerique,Ministère de la Transition numérique et de l'Innovation technologique,Transition numérique,ministere,,transition-numerique
+femme,"Ministère de la Femme, de la Famille et de l'Enfant",Femme et Famille,ministere,,femme
+culture,Ministère de la Culture et de la Francophonie,Culture,ministere,,culture
+sports,Ministère des Sports,Sports,ministere,,sports
+environnement,Ministère de l'Environnement et de la Transition écologique,Environnement,ministere,,environnement
+institutions-juridictions,Institutions et juridictions,Institutions,pole,,institutions-juridictions
+assemblee-nationale,Assemblée nationale,Assemblée nationale,institution,,institutions-juridictions
+senat,Sénat,Sénat,institution,,institutions-juridictions
+conseil-constitutionnel,Conseil constitutionnel,Conseil constitutionnel,institution,,institutions-juridictions
+cour-supreme,Cour suprême,Cour suprême,institution,,institutions-juridictions
+cour-cassation,Cour de cassation,Cour de cassation,institution,,institutions-juridictions
+conseil-etat,Conseil d'État,Conseil d'État,institution,,institutions-juridictions
+cour-comptes,Cour des comptes,Cour des comptes,institution,,institutions-juridictions
+mediateur,Médiateur de la République,Médiateur,institution,,institutions-juridictions
+inspection-generale-etat,Inspection générale d'État,IGE,institution,,institutions-juridictions
+haute-autorite-gouvernance,Haute autorité pour la bonne gouvernance,HABG,institution,,institutions-juridictions
+autorites-organismes,Autorités et organismes publics,Autorités et organismes,pole,,autorites-organismes
+artci,Autorité de régulation des télécommunications/TIC de Côte d'Ivoire,ARTCI,autorite,,autorites-organismes
+cei,Commission électorale indépendante,CEI,autorite,,autorites-organismes
+ins,Institut national de la statistique,INS,organisme,,autorites-organismes
+ansut,Agence nationale du service universel des télécommunications/TIC,ANSUT,organisme,,autorites-organismes
+cicg,Centre d'information et de communication gouvernementale,CICG,organisme,,autorites-organismes
+sndi,Société nationale de développement informatique,SNDI,organisme,,autorites-organismes
+portails,Portails et services transverses,Portails,pole,,portails
+a-rattacher,Sites à rattacher,À rattacher,pole,,a-rattacher

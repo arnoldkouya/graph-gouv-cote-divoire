@@ -1,0 +1,57 @@
+domaine,entite,parent,rattachement,source,note
+presidence.ci,presidence,,officiel,Recherche web,Site de la Présidence de la République
+primature.ci,primature,,annuaire,Annuaire des services publics,
+sgg.gouv.ci,sgg,,officiel,Recherche web,Secrétariat général du gouvernement
+web.sgg.gouv.ci,sgg,sgg.gouv.ci,officiel,Recherche web,Version « web » du site du SGG (gouvernement et institutions)
+assnat.ci,assemblee-nationale,,officiel,Recherche web,
+senat.ci,senat,,officiel,Recherche web,
+defense.gouv.ci,defense,,annuaire,Annuaire des services publics,
+fonctionpublique.gouv.ci,fonction-publique,,annuaire,Annuaire des services publics,
+diplomatie.gouv.ci,affaires-etrangeres,,annuaire,Annuaire des services publics,
+france.diplomatie.gouv.ci,affaires-etrangeres,diplomatie.gouv.ci,officiel,Recherche web,Ambassade de Côte d'Ivoire en France
+integration.gouv.ci,integration-africaine,,annuaire,Annuaire des services publics,
+justice.ci,justice,,annuaire,Annuaire des services publics,
+interieur.gouv.ci,interieur,,annuaire,Annuaire des services publics,
+finances.gouv.ci,economie,,annuaire,Annuaire des services publics,
+budget.gouv.ci,economie,,annuaire,Annuaire des services publics,Ancien ministère du Budget et du Portefeuille de l'État
+dgi.gouv.ci,economie,,déduit,Recherche web,Direction générale des impôts : direction du ministère des Finances
+e-impots.gouv.ci,economie,dgi.gouv.ci,déduit,Recherche web,Télédéclaration et télépaiement de la DGI
+douanes.ci,economie,,déduit,Recherche web,Douanes ivoiriennes : direction générale rattachée aux Finances
+mpeder.ci,mines,,annuaire,Annuaire des services publics,
+agriculture.gouv.ci,agriculture,,annuaire,Annuaire des services publics,
+transports.gouv.ci,transports,,annuaire,Annuaire des services publics,
+salubrite.gouv.ci,hydraulique,,annuaire,Annuaire des services publics,
+jeunesse.gouv.ci,jeunesse,,annuaire,Annuaire des services publics,
+sante.gouv.ci,sante,,annuaire,Annuaire des services publics,
+web.sante.gouv.ci,sante,sante.gouv.ci,officiel,Recherche web,Version « web » du site du ministère
+construction.gouv.ci,urbanisme,,annuaire,Annuaire des services publics,
+logementsocial.gouv.ci,urbanisme,,déduit,Annuaire des services publics,Ancien secrétariat d'État à l'Habitat social
+ressourcesanimales.gouv.ci,ressources-animales,,annuaire,Annuaire des services publics,
+communication.gouv.ci,communication,,annuaire,Annuaire des services publics,
+eauxetforets.gouv.ci,eaux-forets,,annuaire,Annuaire des services publics,
+commerce.gouv.ci,commerce,,annuaire,Annuaire des services publics,
+guce.gouv.ci,commerce,,déduit,Recherche web,Guichet unique du commerce extérieur
+tourisme.gouv.ci,tourisme,,annuaire,Annuaire des services publics,
+plan.gouv.ci,plan,,annuaire,Annuaire des services publics,
+enseignement.gouv.ci,enseignement-superieur,,annuaire,Annuaire des services publics,
+emploi.gouv.ci,emploi,,annuaire,Annuaire des services publics,
+protectionsociale.gouv.ci,emploi,,annuaire,Annuaire des services publics,Ancien ministère de la Protection sociale
+education.gouv.ci,education,,annuaire,Annuaire des services publics,
+solidarite.gouv.ci,cohesion-sociale,,annuaire,Annuaire des services publics,
+culture.gouv.ci,culture,,annuaire,Annuaire des services publics,
+sport.gouv.ci,sports,,annuaire,Annuaire des services publics,
+artci.ci,artci,,officiel,Recherche web,
+nic.ci,artci,,déduit,Recherche web,Registre du domaine .ci
+gouv.ci,portails,,portail,Recherche web,Portail officiel du gouvernement
+gociv.ci,portails,,portail,Recherche web,Ancien portail officiel du gouvernement
+servicepublic.gouv.ci,portails,,portail,Recherche web,Service public de Côte d'Ivoire
+annuaire.gouv.ci,portails,,portail,Recherche web,Annuaire des services publics
+eadministration.gouv.ci,portails,,portail,Recherche web,Administration électronique
+eadministration.ci,portails,,portail,Annuaire des services publics,Ancienne adresse de l'administration électronique (à vérifier)
+participationcitoyenne.gouv.ci,portails,,portail,Recherche web,Participation citoyenne
+data.gouv.ci,portails,,portail,Recherche web,Portail officiel des données ouvertes
+cei.ci,cei,,candidat,Connaissance à vérifier,
+ins.ci,ins,,candidat,Connaissance à vérifier,
+ansut.ci,ansut,,candidat,Connaissance à vérifier,
+cicg.ci,cicg,,candidat,Connaissance à vérifier,Cité comme concepteur du site du SGG
+sndi.ci,sndi,,candidat,Connaissance à vérifier,Cité comme hébergeur du site du SGG
