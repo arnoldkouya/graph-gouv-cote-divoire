@@ -1,0 +1,1713 @@
+{
+  "resultats": {
+    "sgg.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://sgg.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "primature.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "web.sgg.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://web.sgg.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "defense.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://defense.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "assnat.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "senat.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://senat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "diplomatie.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://diplomatie.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "integration.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://integration.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "france.diplomatie.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://france.diplomatie.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "interieur.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://interieur.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "finances.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 403,
+      "url_finale": "https://finances.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "budget.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://budget.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "dgi.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://dgi.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "fonctionpublique.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://fonctionpublique.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mpeder.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://mpeder.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "justice.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://www.justice.ci/",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "presidence.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://www.presidence.ci/",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "e-impots.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://e-impots.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "agriculture.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://agriculture.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "transports.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://transports.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "sante.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://sante.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "salubrite.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://salubrite.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "logementsocial.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 403,
+      "url_finale": "https://logementsocial.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "web.sante.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://web.sante.gouv.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "construction.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://construction.gouv.ci/accueil",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://www.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "commerce.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://commerce.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "communication.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://communication.gouv.ci/accueil",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "tourisme.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 403,
+      "url_finale": "https://tourisme.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "eauxetforets.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 403,
+      "url_finale": "https://eauxetforets.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "enseignement.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://enseignement.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "emploi.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 403,
+      "url_finale": "https://emploi.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ressourcesanimales.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://ressourcesanimales.gouv.ci/accueil/",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "plan.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://plan.gouv.ci/accueil",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "solidarite.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://solidarite.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "sport.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://sport.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "education.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://education.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "guce.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 302,
+      "url_finale": "https://guce.gouv.ci/josso_security_check",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "nic.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://nic.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "artci.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://artci.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "eadministration.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://eadministration.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "servicepublic.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://servicepublic.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "annuaire.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://annuaire.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://gouv.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "culture.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://culture.gouv.ci/accueil",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "participationcitoyenne.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://participationcitoyenne.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cei.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "data.gouv.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://data.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cicg.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cicg.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ins.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://ins.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "acces.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://acces.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "protectionsociale.gouv.ci": {
+      "statut": "Indéterminé",
+      "note": "HTTP 500",
+      "code_http": 500,
+      "url_finale": "https://protectionsociale.gouv.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "adfs.douanes.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://adfs.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "admingouv2.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 401,
+      "url_finale": "https://admingouv2.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ansutnet.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://ansutnet.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "apiaccreditation.cei.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "http://apiaccreditation.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "autodiscover.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://autodiscover.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "asyval.douanes.ci": {
+      "statut": "Indéterminé",
+      "note": "HTTP 504",
+      "code_http": 504,
+      "url_finale": "https://asyval.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "autodiscover.assnat.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://autodiscover.assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "autodiscover.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://autodiscover.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "autodiscover.nic.ci": {
+      "statut": "Indéterminé",
+      "note": "ECONNREFUSED",
+      "code_http": null,
+      "url_finale": "https://autodiscover.nic.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "autodiscover.douanes.ci": {
+      "statut": "Indéterminé",
+      "note": "ECONNREFUSED",
+      "code_http": null,
+      "url_finale": "https://autodiscover.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "autodiscover.primature.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://autodiscover.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "chatbot.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 403,
+      "url_finale": "https://chatbot.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cmz-rabbitmq.connecte-ma-zone.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 403,
+      "url_finale": "https://cmz-rabbitmq.connecte-ma-zone.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cockpit.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://cockpit.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "connecte-ma-zone.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://connecte-ma-zone.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cmz-sms-forward.connecte-ma-zone.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "HTTP 404",
+      "code_http": 404,
+      "url_finale": "https://cmz-sms-forward.connecte-ma-zone.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "connectmap.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://connectmap.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "console-docshieldtest.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://console-docshieldtest.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpanel.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpanel.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpanel.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpanel.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpcalendars.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpcalendars.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "acces.assnat.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://acces.assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "accreditation.cei.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://accreditation.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpanel.ins.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpanel.ins.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpcalendars.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpcalendars.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpcontacts.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpcontacts.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "acces.primature.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://acces.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpcalendars.ins.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpcalendars.ins.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpcontacts.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpcontacts.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "cpcontacts.ins.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://cpcontacts.ins.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "csedge.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://csedge.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "apm2025.sutel.ansut.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://apm2025.sutel.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "dashboard.connecte-ma-zone.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 403,
+      "url_finale": "https://dashboard.connecte-ma-zone.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "dashboard.mazone-test.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 401,
+      "url_finale": "https://dashboard.mazone-test.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "decision-anticipee.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://decision-anticipee.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "datalab.douanes.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://datalab.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "e-impot.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://e-impot.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "demo.primature.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://demo.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "e-impots.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://e-impots.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "demosutel2025.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://demosutel2025.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "eca-rec.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://eca-rec.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "eimpots.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://eimpots.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "enquete-app.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://enquete-app.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "emeeting-rec.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://emeeting-rec.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "erpsolutions.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://erpsolutions.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ecaemeeting-apidoc-rec.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "HTTP 404",
+      "code_http": 404,
+      "url_finale": "https://ecaemeeting-apidoc-rec.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "facture.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://facture.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "drh.douanes.ci": {
+      "statut": "Indéterminé",
+      "note": "HTTP 502",
+      "code_http": 502,
+      "url_finale": "https://drh.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "facture-rec.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://facture-rec.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "exploitation.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://exploitation.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "fsuconnect.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://fsuconnect.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gateway.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://gateway.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gecbi.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://gecbi.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gec.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://gec.ansut.ci/ANSUT/Elise/Home",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ged.primature.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://ged.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gesmam-minio-api.douanes.ci": {
+      "statut": "Redirigé",
+      "note": "vers services-partags-minio-042505-132-220-217-107.sslip.io",
+      "code_http": 200,
+      "url_finale": "http://services-partags-minio-042505-132-220-217-107.sslip.io/",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gesmam-minio-console.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://gesmam-minio-console.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gesmam-api.douanes.ci": {
+      "statut": "Hors ligne",
+      "note": "HTTP 404",
+      "code_http": 404,
+      "url_finale": "https://gesmam-api.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gesmam.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://gesmam.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "gestmam-preprod.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://gestmam-preprod.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "jeunesse.gouv.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://jeunesse.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "importation.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://importation.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "import-resultats.cei.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://import-resultats.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "front.sndi.ci": {
+      "statut": "Hors ligne",
+      "note": "HTTP 404",
+      "code_http": 404,
+      "url_finale": "https://front.sndi.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "intranet.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://intranet.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "imap.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://imap.sndi.ci/SOGo/",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "eadministration.gouv.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://eadministration.gouv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ispconfig-sante.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://ispconfig-sante.sndi.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "ispconfig-ww3.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://ispconfig-ww3.sndi.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "ispconfig-ww2.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://secure.sndi.ci/Interdit.xml",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "ivoiretech-rec.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://ivoiretech-rec.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ivoiretech.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://ivoiretech.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ispconfig-www.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://ispconfig-www.sndi.ci/accueil/index_intro",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "julaba.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://julaba.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "itiltop.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://itiltop.sndi.ci/pages/UI.php",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "julaba-dev.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://julaba-dev.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "lafricamobile.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://lafricamobile.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ispconfig-ww4.sndi.ci": {
+      "statut": "Redirigé",
+      "note": "vers academie.habg.ci",
+      "code_http": 200,
+      "url_finale": "https://academie.habg.ci/",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "labelisation.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://labelisation.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "lyncdiscover.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://lyncdiscover.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ispconfig-dev.sndi.ci": {
+      "statut": "Indéterminé",
+      "note": "HTTP 500",
+      "code_http": 500,
+      "url_finale": "https://ispconfig-dev.sndi.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "csedge.assnat.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://csedge.assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "csedge.primature.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://csedge.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.douanes.ci": {
+      "statut": "Indéterminé",
+      "note": "HTTP 504",
+      "code_http": 504,
+      "url_finale": "https://mail.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://mail.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.cei.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://mail.cei.ci/carbonio/",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.nic.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://mail.nic.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "groupware.sndi.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://groupware.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.sndi.ci": {
+      "statut": "Indéterminé",
+      "note": "EPROTO",
+      "code_http": null,
+      "url_finale": "https://mail.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "master-dns.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://master-dns.ansut.ci/login",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "location.ansut.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://location.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mcp-server-docs.connecte-ma-zone.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 401,
+      "url_finale": "https://mcp-server-docs.connecte-ma-zone.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "matinalesut.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://matinalesut.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mcp-server-docs.mazone-test.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 401,
+      "url_finale": "https://mcp-server-docs.mazone-test.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mcp-server.connecte-ma-zone.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://mcp-server.connecte-ma-zone.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "lyncdiscover.assnat.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://lyncdiscover.assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mcp-server.mazone-test.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://mcp-server.mazone-test.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "lyncdiscover.primature.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://lyncdiscover.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "montoit.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://montoit.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mx1.sndi.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://mx1.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "meteo.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://meteo.ansut.ci/login/",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mydoc.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://mydoc.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mon-toit.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://mon-toit.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "neoface.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://neoface.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "nav.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://nav.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "nada.ins.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://nada.ins.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "nosvillagesconnectes.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://nosvillagesconnectes.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.ansut.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://mail.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "nzassagirl-rec.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://nzassagirl-rec.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "nzassagirl.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://nzassagirl.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "owa.nic.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://owa.nic.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "oms.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "http://oms.ansut.ci/web/database/selector",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pass-demo.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://pass-demo.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "odoodevfactory.ansut.ci": {
+      "statut": "Indéterminé",
+      "note": "HTTP 502",
+      "code_http": 502,
+      "url_finale": "https://odoodevfactory.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "onlyoffice.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://onlyoffice.sndi.ci/welcome/",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "peub.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://peub.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pccet.primature.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://pccet.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pgir-preprod.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://pgir-preprod.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pgca.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://pgca.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pgir.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://pgir.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "portal-docshieldtest.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://portal-docshieldtest.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "portal-ecaemeeting-rec.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://portal-ecaemeeting-rec.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "portal-pgca.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://portal-pgca.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "portal.mazone-test.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://portal.mazone-test.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "projets.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://projets.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "psip.primature.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://psip.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pwa.connecte-ma-zone.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://pwa.connecte-ma-zone.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "radar.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://radar.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "rdap.nic.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://rdap.nic.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.assnat.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://mail.assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "reeie.ins.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://reeie.ins.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "resultat-epr-2025.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://resultat-epr-2025.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "resultats-elections.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "HTTP 404",
+      "code_http": 404,
+      "url_finale": "https://resultats-elections.cei.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "registry.nic.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://registry.nic.ci/login.jsp",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "resultats.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://resultats.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.ins.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://mail.ins.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pgca-api.ansut.ci": {
+      "statut": "Indéterminé",
+      "note": "HTTP 503",
+      "code_http": 503,
+      "url_finale": "http://pgca-api.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "savene.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://savene.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "mail.primature.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://mail.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "shareall.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://shareall.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "sigpiem.sndi.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://sigpiem.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "sip.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://sip.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pool.ansut.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://pool.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pool.assnat.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://pool.assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "pool.primature.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://pool.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "smtp.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://smtp.sndi.ci/SOGo/",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "standby.nic.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://standby.nic.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "sydamauto.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://sydamauto.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "testeur.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://testeur.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "testkader.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://testkader.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "toaster.ua2p.primature.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://toaster.ua2p.primature.ci/SOGo/",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "tomcatpe.douanes.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://tomcatpe.douanes.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "trans-re-epr.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "HTTP 404",
+      "code_http": 404,
+      "url_finale": "https://trans-re-epr.cei.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "rp.ansut.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://rp.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "web-ivoiretech.ansut.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://web-ivoiretech.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "rp.assnat.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://rp.assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "web.assnat.ci": {
+      "statut": "Redirigé",
+      "note": "vers academie.habg.ci",
+      "code_http": 200,
+      "url_finale": "https://academie.habg.ci/",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "webdisk.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://webdisk.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "web.sndi.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://web.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "rp.primature.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://rp.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "webdisk.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://webdisk.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "webdisk.ins.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://webdisk.ins.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "webmail.cei.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://webmail.cei.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "webmail.gociv.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://webmail.gociv.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "wifi.ansut.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://wifi.ansut.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "webmail.ins.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://webmail.ins.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "worknet.front.sndi.ci": {
+      "statut": "Hors ligne",
+      "note": "domaine introuvable",
+      "code_http": null,
+      "url_finale": "https://worknet.front.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "whois.nic.ci": {
+      "statut": "En ligne",
+      "code_http": 200,
+      "url_finale": "https://whois.nic.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "sip.assnat.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://sip.assnat.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "sibprojet.sndi.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://sibprojet.sndi.ci",
+      "tls_erreur": true,
+      "verifie_le": "2026-10-01"
+    },
+    "worknet.sndi.ci": {
+      "statut": "Indéterminé",
+      "note": "HTTP 503",
+      "code_http": 503,
+      "url_finale": "https://worknet.sndi.ci/SOGo",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "sip.primature.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://sip.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "smtp2.sndi.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://smtp2.sndi.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    },
+    "ua2p.primature.ci": {
+      "statut": "Indéterminé",
+      "note": "ETIMEDOUT",
+      "code_http": null,
+      "url_finale": "https://ua2p.primature.ci",
+      "tls_erreur": false,
+      "verifie_le": "2026-10-01"
+    }
+  },
+  "verifie_le": "2026-10-01"
+}

@@ -1,0 +1,867 @@
+[
+  {
+    "domaine": "acces.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "acces.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "acces.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "accreditation.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "adfs.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "admingouv2.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "ansutnet.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "apiaccreditation.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "apm2025.sutel.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "asyval.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "autodiscover.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "autodiscover.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "autodiscover.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "autodiscover.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "autodiscover.nic.ci",
+    "parent": "nic.ci",
+    "source": "crt.sh (nic.ci)"
+  },
+  {
+    "domaine": "autodiscover.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "chatbot.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "cmz-rabbitmq.connecte-ma-zone.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "cmz-sms-forward.connecte-ma-zone.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "cockpit.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "connecte-ma-zone.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "connectmap.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "console-docshieldtest.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "cpanel.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "cpanel.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "cpanel.ins.ci",
+    "parent": "ins.ci",
+    "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "cpcalendars.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "cpcalendars.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "cpcalendars.ins.ci",
+    "parent": "ins.ci",
+    "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "cpcontacts.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "cpcontacts.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "cpcontacts.ins.ci",
+    "parent": "ins.ci",
+    "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "csedge.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "csedge.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "csedge.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "dashboard.connecte-ma-zone.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "dashboard.mazone-test.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "datalab.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "decision-anticipee.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "demo.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "demosutel2025.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "drh.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "e-impot.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "e-impots.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "eca-rec.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "ecaemeeting-apidoc-rec.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "eimpots.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "emeeting-rec.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "enquete-app.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "erpsolutions.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "exploitation.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "facture-rec.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "facture.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "front.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "fsuconnect.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "gateway.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "gec.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "gecbi.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "ged.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "gesmam-api.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "gesmam-minio-api.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "gesmam-minio-console.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "gesmam.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "gestmam-preprod.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "groupware.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "imap.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "import-resultats.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "importation.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "intranet.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "ispconfig-dev.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "ispconfig-sante.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "ispconfig-ww2.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "ispconfig-ww3.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "ispconfig-ww4.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "ispconfig-www.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "itiltop.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "ivoiretech-rec.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "ivoiretech.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "julaba-dev.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "julaba.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "labelisation.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "lafricamobile.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "location.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "lyncdiscover.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "lyncdiscover.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "lyncdiscover.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "mail.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "mail.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "mail.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "mail.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "mail.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "mail.ins.ci",
+    "parent": "ins.ci",
+    "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "mail.nic.ci",
+    "parent": "nic.ci",
+    "source": "crt.sh (nic.ci)"
+  },
+  {
+    "domaine": "mail.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "mail.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "master-dns.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "matinalesut.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "mcp-server-docs.connecte-ma-zone.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "mcp-server-docs.mazone-test.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "mcp-server.connecte-ma-zone.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "mcp-server.mazone-test.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "meteo.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "mon-toit.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "montoit.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "mx1.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "mydoc.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "nada.ins.ci",
+    "parent": "ins.ci",
+    "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "nav.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "neoface.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "nosvillagesconnectes.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "nzassagirl-rec.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "nzassagirl.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "odoodevfactory.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "oms.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "onlyoffice.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "owa.nic.ci",
+    "parent": "nic.ci",
+    "source": "crt.sh (nic.ci)"
+  },
+  {
+    "domaine": "pass-demo.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "pccet.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "peub.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "pgca-api.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "pgca.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "pgir-preprod.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "pgir.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "pool.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "pool.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "pool.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "portal-docshieldtest.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "portal-ecaemeeting-rec.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "portal-pgca.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "portal.mazone-test.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "projets.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "psip.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "pwa.connecte-ma-zone.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "radar.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "rdap.nic.ci",
+    "parent": "nic.ci",
+    "source": "crt.sh (nic.ci)"
+  },
+  {
+    "domaine": "reeie.ins.ci",
+    "parent": "ins.ci",
+    "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "registry.nic.ci",
+    "parent": "nic.ci",
+    "source": "crt.sh (nic.ci)"
+  },
+  {
+    "domaine": "resultat-epr-2025.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "resultats-elections.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "resultats.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "rp.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "rp.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "rp.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "savene.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "shareall.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "sibprojet.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "sigpiem.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "sip.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "sip.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "sip.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "smtp.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "smtp2.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "standby.nic.ci",
+    "parent": "nic.ci",
+    "source": "crt.sh (nic.ci)"
+  },
+  {
+    "domaine": "sydamauto.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "testeur.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "testkader.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "toaster.ua2p.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "tomcatpe.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "trans-re-epr.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "ua2p.primature.ci",
+    "parent": "primature.ci",
+    "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "web-ivoiretech.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "web.assnat.ci",
+    "parent": "assnat.ci",
+    "source": "crt.sh (assnat.ci)"
+  },
+  {
+    "domaine": "web.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "webdisk.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "webdisk.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "webdisk.ins.ci",
+    "parent": "ins.ci",
+    "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "webmail.cei.ci",
+    "parent": "cei.ci",
+    "source": "crt.sh (cei.ci)"
+  },
+  {
+    "domaine": "webmail.gociv.ci",
+    "parent": "gociv.ci",
+    "source": "crt.sh (gociv.ci)"
+  },
+  {
+    "domaine": "webmail.ins.ci",
+    "parent": "ins.ci",
+    "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "whois.nic.ci",
+    "parent": "nic.ci",
+    "source": "crt.sh (nic.ci)"
+  },
+  {
+    "domaine": "wifi.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "worknet.front.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "worknet.sndi.ci",
+    "parent": "sndi.ci",
+    "source": "crt.sh (sndi.ci)"
+  }
+]
