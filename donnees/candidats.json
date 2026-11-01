@@ -1,5 +1,10 @@
 [
   {
+    "domaine": "a.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "acces.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
@@ -10,9 +15,19 @@
     "source": "crt.sh (assnat.ci)"
   },
   {
+    "domaine": "acces.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "acces.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "access.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "accreditation.cei.ci",
@@ -20,14 +35,59 @@
     "source": "crt.sh (cei.ci)"
   },
   {
+    "domaine": "achats-marches.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "achats-marchesfournisseur.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "adfs.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
     "domaine": "adfs.douanes.ci",
     "parent": "douanes.ci",
     "source": "crt.sh (douanes.ci)"
   },
   {
+    "domaine": "adfs.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "admingouv2.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "affairesmaritimes.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "agents.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "agrement.ressourcesanimales.gouv.ci",
+    "parent": "ressourcesanimales.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "amatci.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "annuaire.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "ansutnet.ansut.ci",
@@ -40,9 +100,54 @@
     "source": "crt.sh (cei.ci)"
   },
   {
+    "domaine": "apif.finances.gouv.ci",
+    "parent": "finances.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "apif2022.finances.gouv.ci",
+    "parent": "finances.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "apm2025.sutel.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "app.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "apps.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "archives.ccdo.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "armees.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "assermentation.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "associations.jeunesse.gouv.ci",
+    "parent": "jeunesse.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "assurances.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "asyval.douanes.ci",
@@ -50,9 +155,24 @@
     "source": "crt.sh (douanes.ci)"
   },
   {
+    "domaine": "audiences-bo.justice.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "audiences.justice.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "autodiscover.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "autodiscover.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
   },
   {
     "domaine": "autodiscover.assnat.ci",
@@ -70,6 +190,16 @@
     "source": "crt.sh (gociv.ci)"
   },
   {
+    "domaine": "autodiscover.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "autodiscover.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
     "domaine": "autodiscover.nic.ci",
     "parent": "nic.ci",
     "source": "crt.sh (nic.ci)"
@@ -80,9 +210,109 @@
     "source": "crt.sh (primature.ci)"
   },
   {
+    "domaine": "autodiscover.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "autoecoles.transports.gouv.ci",
+    "parent": "transports.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "autorisation.securite.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "av.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "backend.admin.sigomap.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "backend.efournisseur.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "backend.sigomap.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "banniere.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "baobab.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "bdpr.finances.gouv.ci",
+    "parent": "finances.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "bibliotheque.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "bourses.diplomatie.gouv.ci",
+    "parent": "diplomatie.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "cartodonnees.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "cc.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "cepici.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "cert.sigmap.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "chatbot.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "cicg.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "cief.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "clients.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "cmpabb.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "cmz-rabbitmq.connecte-ma-zone.ansut.ci",
@@ -95,9 +325,29 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "cnzlecaf.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "cockpit.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "collabo.ccdo.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "commissiondelaconcurrence.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "competencesdiaspo.diplomatie.gouv.ci",
+    "parent": "diplomatie.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "connecte-ma-zone.ansut.ci",
@@ -115,6 +365,46 @@
     "source": "crt.sh (douanes.ci)"
   },
   {
+    "domaine": "couloirshumanitaires.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "courdappeldaloa.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "courriel.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "courrier.commerce.gouv.ci",
+    "parent": "commerce.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "courrier.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "cov.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "covid19.securite.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "cp.ogp.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "cpanel.cei.ci",
     "parent": "cei.ci",
     "source": "crt.sh (cei.ci)"
@@ -128,6 +418,21 @@
     "domaine": "cpanel.ins.ci",
     "parent": "ins.ci",
     "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "cpanel.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "cpanel.prixinnovation.energie.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "cpanel.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
   },
   {
     "domaine": "cpcalendars.cei.ci",
@@ -145,6 +450,16 @@
     "source": "crt.sh (ins.ci)"
   },
   {
+    "domaine": "cpcalendars.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "cpcalendars.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
     "domaine": "cpcontacts.cei.ci",
     "parent": "cei.ci",
     "source": "crt.sh (cei.ci)"
@@ -160,6 +475,16 @@
     "source": "crt.sh (ins.ci)"
   },
   {
+    "domaine": "cpcontacts.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "cpcontacts.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
     "domaine": "csedge.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
@@ -170,9 +495,29 @@
     "source": "crt.sh (assnat.ci)"
   },
   {
+    "domaine": "csedge.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "csedge.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "csp.communication.gouv.ci",
+    "parent": "communication.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "cv.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "dacp.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
   },
   {
     "domaine": "dashboard.connecte-ma-zone.ansut.ci",
@@ -190,9 +535,39 @@
     "source": "crt.sh (douanes.ci)"
   },
   {
+    "domaine": "dcpcommunity.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "ddisc.environnement.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "decfinex.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "decision-anticipee.douanes.ci",
     "parent": "douanes.ci",
     "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "decisionnel-spacia.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "declaration.transports.gouv.ci",
+    "parent": "transports.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "demarches.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "demo.primature.ci",
@@ -205,9 +580,69 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "deplacement-aerien.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "depps.sante.gouv.ci",
+    "parent": "sante.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "dfsps.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "dgat.interieur.gouv.ci",
+    "parent": "interieur.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "dge.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "dgpe.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "ditt.interieur.gouv.ci",
+    "parent": "interieur.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "drh.douanes.ci",
     "parent": "douanes.ci",
     "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "drh.gendarmerie.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "dsi.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "dsjrh.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "e-agent.dge.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "e-formations.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
   },
   {
     "domaine": "e-impot.gociv.ci",
@@ -220,14 +655,94 @@
     "source": "crt.sh (gociv.ci)"
   },
   {
+    "domaine": "e-liasse.dgi.gouv.ci",
+    "parent": "dgi.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "e-paiements.dgi.gouv.ci",
+    "parent": "dgi.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "e-plaintefonciere.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "e-plaintesfoncieres.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "e-senat-admin.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "e-senat-amendements.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "e-senat-memoire.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "e-senat-senateur.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "e-senat.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
     "domaine": "eca-rec.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "ecabinet.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "ecabinetmt.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "ecaemeeting-apidoc-rec.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "econseil.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "econseilv1migration.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "econsultation.dgi.gouv.ci",
+    "parent": "dgi.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "edemarches.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "efournisseur.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "eimpots.gociv.ci",
@@ -245,14 +760,29 @@
     "source": "crt.sh (sndi.ci)"
   },
   {
+    "domaine": "environnement.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "erpsolutions.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "esign.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
     "domaine": "exploitation.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "externalweb.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "facture-rec.ansut.ci",
@@ -265,9 +795,34 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "famille.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "fonctionnaireinternational.diplomatie.gouv.ci",
+    "parent": "diplomatie.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "fournisseurs.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "frappeafroid.transports.gouv.ci",
+    "parent": "transports.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "front.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "fs.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
   },
   {
     "domaine": "fsuconnect.ansut.ci",
@@ -275,9 +830,24 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "fut.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
     "domaine": "gateway.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "gatsu.commerce.gouv.ci",
+    "parent": "commerce.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "gcpnd.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "gec.ansut.ci",
@@ -295,7 +865,22 @@
     "source": "crt.sh (primature.ci)"
   },
   {
+    "domaine": "gendarmerie.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "generationcicn.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
     "domaine": "gesmam-api.douanes.ci",
+    "parent": "douanes.ci",
+    "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "gesmam-dokploy.douanes.ci",
     "parent": "douanes.ci",
     "source": "crt.sh (douanes.ci)"
   },
@@ -315,14 +900,59 @@
     "source": "crt.sh (douanes.ci)"
   },
   {
+    "domaine": "gestic.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
     "domaine": "gestmam-preprod.douanes.ci",
     "parent": "douanes.ci",
     "source": "crt.sh (douanes.ci)"
   },
   {
+    "domaine": "groupware.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "groupware.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "guichet.construction.gouv.ci",
+    "parent": "construction.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "gupc.construction.gouv.ci",
+    "parent": "construction.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "idufci-app.construction.gouv.ci",
+    "parent": "construction.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "idufci.construction.gouv.ci",
+    "parent": "construction.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "idweb.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "igf.finances.gouv.ci",
+    "parent": "finances.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "igt.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "imap.sndi.ci",
@@ -340,9 +970,29 @@
     "source": "crt.sh (cei.ci)"
   },
   {
+    "domaine": "indicateurs.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "infracritiques.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "inspection.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
     "domaine": "intranet.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "investir.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "ispconfig-dev.sndi.ci",
@@ -390,6 +1040,21 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "jinforme.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "john.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "join.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "julaba-dev.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
@@ -398,6 +1063,16 @@
     "domaine": "julaba.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "kyc24.gendarmerie.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "labanque.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "labelisation.ansut.ci",
@@ -415,6 +1090,11 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "lof.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
     "domaine": "lyncdiscover.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
@@ -425,6 +1105,11 @@
     "source": "crt.sh (assnat.ci)"
   },
   {
+    "domaine": "lyncdiscover.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "lyncdiscover.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
@@ -433,6 +1118,11 @@
     "domaine": "mail.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "mail.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
   },
   {
     "domaine": "mail.assnat.ci",
@@ -455,9 +1145,19 @@
     "source": "crt.sh (gociv.ci)"
   },
   {
+    "domaine": "mail.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "mail.ins.ci",
     "parent": "ins.ci",
     "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "mail.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
   },
   {
     "domaine": "mail.nic.ci",
@@ -468,6 +1168,11 @@
     "domaine": "mail.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "mail.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
   },
   {
     "domaine": "mail.sndi.ci",
@@ -505,9 +1210,39 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "meet.budget.gouv.ci",
+    "parent": "budget.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "meet.telecom.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "meetdev.telecom.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "meteo.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "microfinance.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "migrationeconseil2016.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "ministere.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
   },
   {
     "domaine": "mon-toit.ansut.ci",
@@ -520,9 +1255,19 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "mx1.fonctionpublique.gouv.ci",
+    "parent": "fonctionpublique.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "mx1.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "mx2.fonctionpublique.gouv.ci",
+    "parent": "fonctionpublique.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "mydoc.gociv.ci",
@@ -545,9 +1290,24 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "newweb.telecom.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "nosvillagesconnectes.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "nutridata.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "nutrition.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "nzassagirl-rec.ansut.ci",
@@ -560,9 +1320,29 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "observatoire.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "odoo.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
     "domaine": "odoodevfactory.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "ogp.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "oissu.sport.gouv.ci",
+    "parent": "sport.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "oms.ansut.ci",
@@ -575,6 +1355,21 @@
     "source": "crt.sh (sndi.ci)"
   },
   {
+    "domaine": "opendata.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "osc.interieur.gouv.ci",
+    "parent": "interieur.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "owa.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
     "domaine": "owa.nic.ci",
     "parent": "nic.ci",
     "source": "crt.sh (nic.ci)"
@@ -585,9 +1380,34 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "passeportsofficiels.diplomatie.gouv.ci",
+    "parent": "diplomatie.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pay.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pay2.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "pccet.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "pepite2030-test.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pepite2030.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "peub.ansut.ci",
@@ -615,6 +1435,41 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "pgt.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "photos.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pilot.fne.dgi.gouv.ci",
+    "parent": "dgi.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pilote-idufci.construction.gouv.ci",
+    "parent": "construction.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pme.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pnn.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "poc-groupware.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "pool.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
@@ -625,9 +1480,19 @@
     "source": "crt.sh (assnat.ci)"
   },
   {
+    "domaine": "pool.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "pool.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "portaildettepublique.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "portal-docshieldtest.douanes.ci",
@@ -650,6 +1515,41 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "ppp.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pressroom.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "prime.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "prixdexcellence.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "prixinnovation.energie.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "prixplafond.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "prixplafonds.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "projets.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
@@ -665,6 +1565,26 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "pwa.mazone-test.ansut.ci",
+    "parent": "ansut.ci",
+    "source": "crt.sh (ansut.ci)"
+  },
+  {
+    "domaine": "pwic.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "pydio.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "quorum.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
     "domaine": "radar.ansut.ci",
     "parent": "ansut.ci",
     "source": "crt.sh (ansut.ci)"
@@ -675,14 +1595,59 @@
     "source": "crt.sh (nic.ci)"
   },
   {
+    "domaine": "recensement2021.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "reconciliation.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "recouvrement.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "recrutement.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
     "domaine": "reeie.ins.ci",
     "parent": "ins.ci",
     "source": "crt.sh (ins.ci)"
   },
   {
+    "domaine": "registrationportal.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "registry.nic.ci",
     "parent": "nic.ci",
     "source": "crt.sh (nic.ci)"
+  },
+  {
+    "domaine": "renovation.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "reporting-dev.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "reporting.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "reservationconf.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "resultat-epr-2025.cei.ci",
@@ -710,9 +1675,19 @@
     "source": "crt.sh (assnat.ci)"
   },
   {
+    "domaine": "rp.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "rp.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "santepourtous.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "savene.douanes.ci",
@@ -720,9 +1695,49 @@
     "source": "crt.sh (douanes.ci)"
   },
   {
+    "domaine": "securite.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "securiteroutiere.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "server1.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "servicecivique.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "services.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "shareall.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "sia-backend.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "sib.dgbf.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sibc.ppp.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "sibprojet.sndi.ci",
@@ -730,9 +1745,79 @@
     "source": "crt.sh (sndi.ci)"
   },
   {
+    "domaine": "sie.environnement.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sig.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "sig.communication.gouv.ci",
+    "parent": "communication.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sigac.diplomatie.gouv.ci",
+    "parent": "diplomatie.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sigfae.fonctionpublique.gouv.ci",
+    "parent": "fonctionpublique.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sigmap.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sigmg.diplomatie.gouv.ci",
+    "parent": "diplomatie.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sigmission.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sigomap.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "sigpiem.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "sigresh.finances.gouv.ci",
+    "parent": "finances.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sigsante.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sigssu.oissu.sport.gouv.ci",
+    "parent": "sport.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sile.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "simg.diplomatie.gouv.ci",
+    "parent": "diplomatie.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "sip.ansut.ci",
@@ -745,9 +1830,39 @@
     "source": "crt.sh (assnat.ci)"
   },
   {
+    "domaine": "sip.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "sip.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "sisa.defense.gouv.ci",
+    "parent": "defense.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sitesdesdonnees.artci.ci",
+    "parent": "artci.ci",
+    "source": "crt.sh (artci.ci)"
+  },
+  {
+    "domaine": "sitetest.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "sms.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "sms.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "smtp.sndi.ci",
@@ -760,14 +1875,64 @@
     "source": "crt.sh (sndi.ci)"
   },
   {
+    "domaine": "spacia.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "spesa.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "sspr.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "standby.nic.ci",
     "parent": "nic.ci",
     "source": "crt.sh (nic.ci)"
   },
   {
+    "domaine": "support.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "support.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "swedd.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "sydamauto.douanes.ci",
     "parent": "douanes.ci",
     "source": "crt.sh (douanes.ci)"
+  },
+  {
+    "domaine": "sygidan.dgddl.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "tap.pilot.fne.dgi.gouv.ci",
+    "parent": "dgi.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "telecom.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "test.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
   },
   {
     "domaine": "testeur.sndi.ci",
@@ -780,6 +1945,16 @@
     "source": "crt.sh (ansut.ci)"
   },
   {
+    "domaine": "tgan.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "tgyakro.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "toaster.ua2p.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
@@ -790,14 +1965,84 @@
     "source": "crt.sh (douanes.ci)"
   },
   {
+    "domaine": "tpci.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "trans-re-epr.cei.ci",
     "parent": "cei.ci",
     "source": "crt.sh (cei.ci)"
   },
   {
+    "domaine": "tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "tribtravail-abidjan.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "tribunal-trav.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "tribunal-travail-abidjan.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
     "domaine": "ua2p.primature.ci",
     "parent": "primature.ci",
     "source": "crt.sh (primature.ci)"
+  },
+  {
+    "domaine": "ue.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "ui.pilot.fne.dgi.gouv.ci",
+    "parent": "dgi.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "upuabidjan.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "upuabidjan2020.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "videoconference.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "visioconference.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "vote.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "vsdc.pilot.fne.dgi.gouv.ci",
+    "parent": "dgi.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "wbservice.tresor.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "web-ivoiretech.ansut.ci",
@@ -810,9 +2055,34 @@
     "source": "crt.sh (assnat.ci)"
   },
   {
+    "domaine": "web.fonctionpublique.gouv.ci",
+    "parent": "fonctionpublique.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "web.ppp.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "web.sigmap.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "web.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "web2.spesa.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "webconf.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   },
   {
     "domaine": "webdisk.cei.ci",
@@ -830,6 +2100,21 @@
     "source": "crt.sh (ins.ci)"
   },
   {
+    "domaine": "webdisk.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "webdisk.prixinnovation.energie.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "webdisk.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
     "domaine": "webmail.cei.ci",
     "parent": "cei.ci",
     "source": "crt.sh (cei.ci)"
@@ -840,9 +2125,34 @@
     "source": "crt.sh (gociv.ci)"
   },
   {
+    "domaine": "webmail.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
     "domaine": "webmail.ins.ci",
     "parent": "ins.ci",
     "source": "crt.sh (ins.ci)"
+  },
+  {
+    "domaine": "webmail.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "webmail.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
+  },
+  {
+    "domaine": "webservicedsjrh.justice.ci",
+    "parent": "justice.ci",
+    "source": "crt.sh (justice.ci)"
+  },
+  {
+    "domaine": "whm.senat.ci",
+    "parent": "senat.ci",
+    "source": "crt.sh (senat.ci)"
   },
   {
     "domaine": "whois.nic.ci",
@@ -863,5 +2173,25 @@
     "domaine": "worknet.sndi.ci",
     "parent": "sndi.ci",
     "source": "crt.sh (sndi.ci)"
+  },
+  {
+    "domaine": "ww2.commerce.gouv.ci",
+    "parent": "commerce.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "ww2.fonctionpublique.gouv.ci",
+    "parent": "fonctionpublique.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "ww2.gouv.ci",
+    "parent": "gouv.ci",
+    "source": "crt.sh (gouv.ci)"
+  },
+  {
+    "domaine": "zmail.guce.gouv.ci",
+    "parent": "guce.gouv.ci",
+    "source": "crt.sh (gouv.ci)"
   }
 ]
